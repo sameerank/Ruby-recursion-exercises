@@ -1,6 +1,5 @@
 class Array
   def deep_dup
-    # new_ary = []
     self.map do |el|
       if el.is_a?(Array)
         el.deep_dup
@@ -8,7 +7,6 @@ class Array
         el
       end
     end
-    # new_ary
   end
 end
 
