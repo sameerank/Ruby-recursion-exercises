@@ -1,11 +1,5 @@
-# require 'byebug'
-
 def fibonacci_recursive(n)
   return [0, 1].take(n) if n <= 2
-  # return [] if n == 0
-  # return [0] if n == 1
-  # return [0, 1] if n == 2
-#  debugger
   prev_ary = fibonacci_recursive(n - 1)
   new_num = prev_ary[-1] + prev_ary[-2]
   prev_ary << new_num
