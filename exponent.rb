@@ -1,5 +1,3 @@
-#recursion 1
-
 def recursion_one(base, exp)
   return 1 if exp == 0
   base * recursion_one(base, exp - 1)
