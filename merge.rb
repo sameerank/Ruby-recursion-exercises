@@ -31,5 +31,5 @@ if __FILE__ == $PROGRAM_NAME
   shuffled_ary = (1..100).to_a.shuffle
   p shuffled_ary
   p merge_sort(shuffled_ary)
-  # p merge([1,6,3],[2,5,4])
+  p merge([1,6,3],[2,5,4])
 end
